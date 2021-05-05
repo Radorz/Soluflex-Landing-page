@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Strait&display=swap');
+*{
+    font-family: 'Strait', sans-serif;
+
+}
+.navcolor{
+    background-color: #5755B6;
+}
+
+.hcarusel{
+
+    height: 450px;
+}
+
+.bluebar{
+              
+        position: absolute;
+        top: 180px;
+        left: 430px;
+        opacity: 0.8;  
+    width: 600px;
+    height: 5px;
+    background-color: #505CFD;
+    z-index: 9;
+    margin: 20px;
+}
+
+.nosotros{
+    font-size: 48px;
+    position: absolute;
+    top: 115px;
+    left: 730px;
+    opacity: 0.8;  
+z-index: 9;
+margin: 20px;
+}
+
+.nosotroscontent{
+    font-size: 22px;
+    position: absolute;
+    top: 225px;
+    left: 710px;
+    opacity: 0.8;  
+z-index: 9;
+margin: 20px;
+width: 38%;
+}
+.imgcontent1{
+    position: absolute;
+    top: 0;
+    left: 50px;
+    opacity: 0.8;  
+}
+
+.decorationcolor{
+    color: #505CFD;
+}
