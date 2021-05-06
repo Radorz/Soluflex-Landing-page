@@ -25,46 +25,16 @@
         <img class="ms-3" src="assets\imgs\Logo_Soluflex_NoFondo.png" alt="Logo Soluflex">
     </div>
 
-    <nav class="navbar navbar-expand-lg navbar-dark px-2" style="background-color:#5755B6;">
-      <!-- <a href="#" class="navbar-brand">Academind</a> -->
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse " id="navbarMenu">
-          <ul class="navbar-nav ms-auto" style="font-size: x-large; " >
-              <li class="nav-item ">
-                <a href="#" class="nav-link" >  Opción_1 </a>
-                <!-- style="color: aliceblue;" -->
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link" >  Opción_2 </a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link" >  Opción_3 </a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link" >  Opción_4 </a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link" >  Opción_5 </a>
-              </li>
-          </ul>
-      </div>
-
-  </nav>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"></script>
-    <!-- <nav class="navbar navbar-expand-lg navbar-light navcolor">
+   
+  
+ 
+     <nav class="navbar navbar-expand-lg navbar-light navcolor">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="container  mb-2 mb-lg-0 p-2">
+            <ul class="container  mb-2 mb-lg-0 p-2 d-none d-lg-block">
                 <div class="row justify-content-center text-center">
                     <div class="col border-end ">
                       <a href="#!" class="text-white" style="text-decoration: none;">Opción 1</a>
@@ -87,9 +57,28 @@
                      
                   </div>
             </ul>
+
+             <ul class="navbar-nav ms-auto d-lg-none" style="font-size: x-large; " >
+              <li class="nav-item ">
+                <a href="#" class="nav-link" >  Opción_1 </a>
+                <!-- style="color: aliceblue;" -->
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" >  Opción_2 </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" >  Opción_3 </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" >  Opción_4 </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" >  Opción_5 </a>
+              </li>
+          </ul>
           </div>
         </div>
-      </nav> -->
+      </nav> 
       
 <div class="">
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -251,15 +240,11 @@
   </div>
 </div>
   </div>
-
+  
   <div class="w-100 bg-light">
    
     <div class=" p-3 mb-3" >
-      <div class="row g-0">
-        <div class="col-md-4 ms-5 p-5">
-          <img src="assets/imgs/pexels-koolshooters-7682536.jpg"  class="img-fluid rounded-circle testimonioimg" alt="...">
-        </div>
-        <div class="col-md-6">
+      
           <div class="card-body">
             <div class="d-flex justify-content-center">
             <h5 class="card-title text-muted">Testimonios</h5>
@@ -267,22 +252,85 @@
           <div class="d-flex justify-content-center">
             <h2>Qué dice la gente de <span class="decorationcolor"> nosotros</span></h2>
           </div>
-            
-            <p class="card-text mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            <div class="row">
-              <div class="col-1">
-            <div class="minibluebar mt-2"></div>
+          
+          <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row g-0">
+                  <div class="col-md-4 ms-5 ">
+                    <img src="assets/imgs/pexels-koolshooters-7682536.jpg"  class="img-fluid rounded-circle testimonioimg" alt="...">
+                  </div>
+                  <div class="col-md-6">
+                
+                  <p class="card-text mt-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                  <div class="row">
+                    <div class="col-1">
+                  <div class="minibluebar mt-2"></div>
+                </div>
+                <div class="col-1">
+                  <p > Hola</p>
+                </div>
+                </div>
+                  <p class="card-text"><small class="text-muted">Cliente Regular</small></p>
+                </div>
+                
+                </div>              </div>
+              <div class="carousel-item">
+                <div class="row g-0">
+                  <div class="col-md-4 ms-5 ">
+                    <img src="assets/imgs/pexels-koolshooters-7682536.jpg"  class="img-fluid rounded-circle testimonioimg" alt="...">
+                  </div>
+                  <div class="col-md-6">
+                
+                  <p class="card-text mt-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                  <div class="row">
+                    <div class="col-1">
+                  <div class="minibluebar mt-2"></div>
+                </div>
+                <div class="col-1">
+                  <p > Hola</p>
+                </div>
+                </div>
+                  <p class="card-text"><small class="text-muted">Cliente Regular</small></p>
+                </div>
+                
+                </div>              </div>
+              <div class="carousel-item">
+                <div class="row g-0">
+                  <div class="col-md-4 ms-5 ">
+                    <img src="assets/imgs/pexels-koolshooters-7682536.jpg"  class="img-fluid rounded-circle testimonioimg" alt="...">
+                  </div>
+                  <div class="col-md-6">
+                
+                  <p class="card-text mt-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                  <div class="row">
+                    <div class="col-1">
+                  <div class="minibluebar mt-2"></div>
+                </div>
+                <div class="col-1">
+                  <p > Hola</p>
+                </div>
+                </div>
+                  <p class="card-text"><small class="text-muted">Cliente Regular</small></p>
+                </div>
+                
+                </div>              </div>
+            </div>
+            <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-          <div class="col-1">
-            <p > Hola</p>
-          </div>
-          </div>
-            <p class="card-text"><small class="text-muted">Cliente Regular</small></p>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
+</div>
 
 
   <!-- Footer -->
@@ -394,6 +442,8 @@
   <!-- Copyright -->
 </footer>
 <!-- Footer -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
 </body>
 
 <script src="assets/bootstrap/js/bootstrap.bundle.min.js" > </script>
