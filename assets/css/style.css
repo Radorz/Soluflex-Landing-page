@@ -23,6 +23,8 @@
     background-color: #505CFD;
     z-index: 9;
     margin: 20px;
+    display:block;  
+
 }
 
 .nosotros{
@@ -71,11 +73,71 @@ width: 38%;
     width: 312px;
     height: 293px;
 }
-
+.pos-r{
+    position: relative;
+}
 .minibluebar{
               
      
 width: 50px;
 height: 5px;
 background-color: #505CFD;
+}
+
+@media screen and (max-width:720px) {
+    
+    .nosotros{
+        font-size: 48px;
+        position: static;
+        top: 115px;
+        left: 0;
+        opacity: 0.8;  
+    z-index: 9;
+    margin: 20px;
+    }
+    
+    .nosotroscontent{
+        font-size: 22px;
+        position: static;
+        left: 0;
+
+        opacity: 0.8;  
+    margin: 20px;
+    width: 100%;
+    }
+    .imgcontent1{
+        position: static;
+        left: 0;
+        width: 100%;
+        opacity: 0.8;  
+        margin-left: 0;
+    }
+    .hnosostros{
+
+        height:100%;
+    }
+    .col-5{
+        width: 100%;
+    }
+    .col-7{
+        width: 100%;
+    }
+    .col-4{
+        width: 80%;
+        padding-left: 25px;
+    }
+    .cen{
+        padding: 25px;
+    }
+    .col-3{
+       
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .centers{
+        
+        width: 100%;
+
+    }
 }
