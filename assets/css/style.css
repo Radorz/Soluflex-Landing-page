@@ -82,10 +82,15 @@ width: 38%;
 width: 50px;
 height: 5px;
 background-color: #505CFD;
+padding-left: 20px;
 }
 
-@media screen and (max-width:720px) {
-    
+@media screen and (max-width:1216px) {
+
+    .bluebar{
+        display: none;
+        visibility:hidden;
+    }
     .nosotros{
         font-size: 48px;
         position: static;
@@ -99,23 +104,27 @@ background-color: #505CFD;
     .nosotroscontent{
         font-size: 22px;
         position: static;
-        left: 0;
-
         opacity: 0.8;  
-    margin: 20px;
-    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+    
+    width: 70%;
     }
     .imgcontent1{
         position: static;
         left: 0;
-        width: 100%;
+        width: 50%;
         opacity: 0.8;  
         margin-left: 0;
+        align-self: center;
     }
     .hnosostros{
-
+        text-align: center;
         height:100%;
     }
+}
+@media screen and (max-width:992px) {
+ 
     .col-5{
         width: 100%;
     }
@@ -139,5 +148,8 @@ background-color: #505CFD;
         
         width: 100%;
 
+    }
+    .col-md-4 {
+        text-align: center;
     }
 }
