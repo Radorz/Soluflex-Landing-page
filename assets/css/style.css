@@ -153,3 +153,15 @@ padding-left: 20px;
         text-align: center;
     }
 }
+@media screen and (max-width:575px) {
+
+    .col-sm-3{
+        width: 50%;
+        float: right;        
+    }
+    .col-sm-2{
+        width: 50%;
+        float: left;
+    }
+    
+}
